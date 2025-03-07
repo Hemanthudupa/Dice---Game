@@ -138,17 +138,20 @@ button {
   border: inherit;
   overflow: hidden;
 }
-#roll-dice {
-  /* transition: all;
-  transition-duration: 2s;
-  transition-duration: 1s;
-  transform: rotate(360deg);
-  background-color: rgb(217, 255, 0); */
-}
 
-#roll-dice :hover {
+
+
+#roll-dice:hover .fa-dice {
   transition: all;
   transition-duration: 1s;
+
   transform: rotate(360deg);
-  background-color: rgb(217, 255, 0);
+}
+
+#hold-dice:hover .fa-solid {
+  transition: all;
+  transition-duration: 1s;
+  /* transform: rotate(360deg); */
+  transform: translateY(-10px) 
+
 }
